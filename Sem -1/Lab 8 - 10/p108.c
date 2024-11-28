@@ -16,9 +16,9 @@ int main()
     char word1[100];
     char word2[100] ;
     printf("Enter the word 1:\n");
-      printf("Enter the word 2:\n");
-      gets(word1);
-      gets(word2);
+     printf("Enter the word 2:\n");
+    fgets(word1,100,stdin);
+     fgets(word2,100,stdin);
 
     char copy[10],concate[100];
     
